@@ -8,7 +8,7 @@
 
 Нейросеть обучалась на изображениях, представляющих собой ркуописные черные символы на белом фоне.
 
-<img src="https://github.com/coolcode17/coolcode17/blob/main/IMG_2019.jpg](https://github.com/coolcode17/Handwritten-Digits-and-Operators-recognition/blob/main/data_from_dataset.PNG" width="600">
+<img src="https://github.com/coolcode17/Handwritten-Digits-and-Operators-recognition/blob/main/data_from_dataset.PNG" width="600">
 
 Для обеспечения устойчивости модели при инференсе на реальных пользовательских рисунках был разработан кастомный пайплайн предобработки с использованием `OpenCV`:
 * Инверсия и создание маски для нахождения `bounding box` символа.
