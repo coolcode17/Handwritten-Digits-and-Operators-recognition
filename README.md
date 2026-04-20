@@ -17,7 +17,7 @@
 * Легкое размытие (Gaussian Blur) для сглаживания шумов.
 * **Гамма-коррекция (настройка плотности)** для адаптации толщины линий пользовательского ввода к распределению обучающей выборки.
 
-`[Вставь сюда скриншот: Результат работы функции predict_custom_image (где слева "Твой рисунок", а справа "Результат с учетом плотности")]`
+<img src="https://github.com/coolcode17/Handwritten-Digits-and-Operators-recognition/blob/main/predict.PNG" width="600">
 
 ## 🏗 Эксперименты и архитектуры (Model Analysis)
 
@@ -50,13 +50,13 @@
 **Лучшая модель по метрике Accuracy:** Model 5x5 + 3x3  
 Модель сохранена как `best_cnn_model.h5`
 
-`[Вставь сюда скриншот: Графики "Train/Val Accuracy" и "Train/Val Loss" для лучшей модели (Model Conv-Conv-Pool) из вывода функции plot_history]`
+<img src="https://github.com/coolcode17/Handwritten-Digits-and-Operators-recognition/blob/main/best_model.PNG" width="600">
 
 ## 🎯 Оценка качества (Evaluation)
 
 Для детального анализа ошибок лучшей модели построена матрица ошибок (Confusion Matrix).
 
-`[Вставь сюда скриншот: Seaborn Heatmap Матрицы ошибок (Confusion Matrix)]`
+<img src="https://github.com/coolcode17/Handwritten-Digits-and-Operators-recognition/blob/main/confusion_matrix.PNG" width="600">
 
 *Краткий вывод по матрице:* *(Здесь тебе нужно посмотреть на тепловую карту и написать 1-2 предложения от себя. Например: "Модель уверенно распознает большинство классов, однако наблюдаются редкие ложные срабатывания между визуально похожими символами (например, `1` и `/` или `+` и `*`), что объясняется стилем пользовательского написания.")*
 
@@ -66,6 +66,4 @@
 * **Computer Vision:** OpenCV
 * **Анализ данных:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 
-***
 
-Как тебе такая структура для GitHub? Хочешь ли ты добавить раздел с конкретными примерами кода, которые демонстрируют пайплайн инференса, чтобы интервьюерам было проще оценить твои навыки работы с OpenCV?
