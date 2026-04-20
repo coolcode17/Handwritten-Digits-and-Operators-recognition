@@ -66,4 +66,5 @@
 * **Computer Vision:** OpenCV
 * **Анализ данных:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 
-
+## Все графики, summary и остальное находится здесь:
+https://github.com/coolcode17/Handwritten-Digits-and-Operators-recognition/blob/main/digits_and_operators_classification.ipynb
